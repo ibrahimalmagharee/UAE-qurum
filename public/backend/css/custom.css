@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+    url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.woff) format('woff'),
+    url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Droid Arabic Kufi','Roboto',play,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #474a4c;
+    font-weight: 500;
+    position: relative;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    -webkit-font-kerning: auto;
+    -moz-font-kerning: auto;
+    font-kerning: auto;
+    -o-font-kerning: auto;
+}
+
+a {
+    color: #0176e0;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    color: #1169e0;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.kt-datatable.kt-datatable--default>.kt-datatable__table>.kt-datatable__foot .kt-datatable__row>.kt-datatable__cell>span, .kt-datatable.kt-datatable--default>.kt-datatable__table>.kt-datatable__head .kt-datatable__row>.kt-datatable__cell>span {
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+
+.kt-user-card-v2 .kt-user-card-v2__pic img{
+    border-radius: 0;
+}
+
+
+.btn-danger {
+    background-color: #fd3942;
+    border-color: #ff3e46;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #fd1c1e;
+    border-color: #fd1c1e;
+    color: #fff;
+}
+
+
+.form-control{
+    border: 1px solid #dedada;
+}
+
+
+
+/*.jstree-default .jstree-icon, .jstree-default .jstree-icon:empty{*/
+/*    background-size: contain !important;*/
+/*    margin-left: 4px;*/
+/*}*/
+
+
+.kt-user-card-v2 .kt-user-card-v2__pic img{
+    max-width: 100px;
+    max-height: 70px;
+}
+
+
+.form-control-sm{
+    font-size: 13px !important;
+}
+
+
+.kt-user-card-v2 .dt-pic img{
+    max-width: 90px;
+    max-height: 90px;
+    padding-left: 10px;
+}
+
+
+.select2-search__field{
+    text-align: right;
+}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered .select2-selection__choice{
+    color: #fff;
+    background: #5785e4;
+    border: 1px solid #ebedf2;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered .select2-selection__choice .select2-selection__choice__remove{
+    color: #fff;
+
+}
+
+
+.kt-font-bold {
+    font-weight: 600!important;
+}
+
+
+code{
+    font-family: Consolas,Liberation Mono,Courier New,monospace !important;
+    color: #e83e8c !important;
+
+}
+
+
+.invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+.table > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
+
+
+.kt-widget16 .kt-widget16__items .kt-widget16__item .kt-widget16__sceduled{
+    color: #5a5b63;
+}
+
+
+select{
+    padding: .4rem 0.9rem !important;
+}
+
+
+.changaeable-field-c{
+    border: 1px solid #c4ccf7;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-bottom: 15px;
+}
+
+
+.md-editor>textarea{
+    font-family: 'Droid Arabic Kufi','Roboto',play,Arial,Helvetica,sans-serif;
+}
+
+
+.kt-widget25 {
+    margin-top: 0;
+}
+
+
+.kt-widget24 .kt-widget24__details .kt-widget24__stats{
+    font-size: 1.9rem;
+}
+
+
+.kt-checkbox.kt-checkbox--brand.kt-checkbox--solid>span:after {
+    border: solid #5f5f5f;
+}
+
+
+
+.kt-portlet.kt-portlet--height-fluid {
+    height: auto !important;
+}
+
+
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--langs .kt-header__topbar-icon img {
+    border-radius: 4px;
+    width: 17px;
+    height: 15px;
+}

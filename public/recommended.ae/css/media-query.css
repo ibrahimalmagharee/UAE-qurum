@@ -1,0 +1,157 @@
+/***************************************** Start Media */
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    header .langMenu .dropdown-menu {right: -30px;}
+    #statistics .main_content .statistic.last_statistic h4{
+        font-size: 24px;
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+   
+}
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .bookingModal .modal-dialog {
+        max-width: 700px !important;
+    }
+    .swiper-pagination {
+        width: 80%;
+    }
+    main ul.social {
+        bottom: 90px;
+    left: 30px;
+    }
+    .cover_video_sound {
+        bottom: 60px;
+    left: 30px;
+    }
+    #gallery .main_content .item {
+        width: 200px;
+    height: 150px;
+    }
+    #contact_us .contact_form h3 {
+        margin-bottom: 15px;
+    }
+    #contact_us .contact_form {
+        padding: 20px 50px 20px 50px;
+    }
+    #contact_us .contact_form .form-group textarea {
+        padding-top: 15px;
+    }
+    #contact_us .contact_form .form-group input, #contact_us .contact_form .form-group textarea {
+        font-size: 14px;
+    }
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+    body .zoom-out > header{ height: 15%;}
+    body .zoom-out > main{ height: 85%;}
+    body .zoom-out > footer{ height: 0%;}
+
+    .main_content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #introduction .main_content .read,
+    #vision .main_content .read {
+        height: fit-content;
+    }
+    #vision .main_content {
+        padding-bottom: 10px;
+
+    }
+    #vision .main_content .row,
+    #vision .main_content .row > div{
+        height: fit-content;
+        display: block;
+        margin: 0;
+    }
+    #goles .main_content > .row, #goles .main_content > .row > div, #subsicribe_info .main_content > .row, #subsicribe_info .main_content > .row > div{
+        height: fit-content;
+        display: block;
+        margin:0
+    }
+    #goles .main_content,
+    #statistics .main_content,
+    #gallery .main_content  {
+        display: block;
+    }
+    
+    #goles .main_content .gole p, #subsicribe_info .main_content .gole p {
+        height: fit-content;
+        overflow: visible !important;
+    }
+    #goles .main_content .gole .icon, #subsicribe_info .main_content .gole .icon{
+        background-color:rgb(137 179 137 / 60%);
+    }
+    #goles .main_content .gole, #subsicribe_info .main_content .gole {
+        margin-bottom: 15px;
+    }
+    #statistics .main_content > .row, #statistics .main_content >.row > div {
+        height: fit-content;
+        display: block;
+    }
+    #statistics .main_content .subsicriberNum {
+        padding: 40px;
+        background-color: #00000014;
+        width: 80%;
+        margin: 0 auto 35px
+    }
+    #statistics .main_content .subsicriberNum h5 {
+        font-size: 26px;
+    }
+    #statistics .main_content .subsicriberNum .num {
+        font-size: 50px;
+    }
+    #statistics .main_content .subsicriberNum .num span,
+    #statistics .main_content .subsicriberNum .label {
+        font-size: 20px;
+    }
+    #statistics .main_content .statistic {
+        width: 60%;
+    margin: 0 auto 50px;
+    }
+    #statistics .main_content .statistic.last_statistic {
+        padding: 50px 10px;
+    }
+    #gallery .main_content{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    #gallery .main_content .item {
+        display: inline-block;
+    }
+    #gallery .main_content > .row, #gallery .main_content > .row > div {
+        margin: 0;
+    }
+    #contact_us .contact_info {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    #contact_us .col-flag {
+        height: fit-content !important;
+    } 
+    #contact_us .contact_form {
+        margin-bottom: 30px;
+    }
+    #vision > div > div > div:nth-child(2) > div {
+height: 50%;    }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .cover_video_sound {
+        bottom: 30px;
+    }
+    main ul.social {
+        bottom: 60px;
+    }
+    #gallery .main_content .item {
+        width: 350px;
+        height: 220px;
+    }
+    header img.logo {
+        top: 20px;
+}
+}
