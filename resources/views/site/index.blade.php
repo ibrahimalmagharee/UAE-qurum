@@ -700,7 +700,7 @@
                                                     <div class="form-footer">
                                                         <button type="button" class="btn btn-primary btn-sent"
                                                                 data-dismiss="modal" data-toggle="modal"
-                                                                id="sendMessage">@if(get_lang() == 'ar')إرسال رسالة
+                                                                id="sendMessage">@if(get_lang() == 'ar')إرسال رسالة 
                                                             @elseif(get_lang() == 'en') Sending A Message
                                                             @endif</button>
 
@@ -736,6 +736,7 @@
                         <li><a href="{{$watsapp->link}}"><img src="{{app_asset('recommended.ae/images/icons/phone.png')}}" alt=""> </a></li>
                     @endisset
 
+                
             </ul>
 
             <div class="cover_video_sound muted  d-md-flex" >
