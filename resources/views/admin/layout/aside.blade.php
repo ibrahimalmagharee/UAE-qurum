@@ -7,7 +7,7 @@
     <div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
         <div class="kt-aside__brand-logo">
             <a href="">
-                <img alt="Logo" width="180" height="50" src="{{app_asset('media/logo/'.app('settings')->get('footer_logo'))}}" />
+                <img alt="Logo" width="30" style="margin-left:70px;margin-right:70px" height="60" src="{{app_asset('media/logo/'.app('settings')->get('footer_logo'))}}" />
             </a>
         </div>
         <div class="kt-aside__brand-tools">
@@ -35,7 +35,7 @@
     </div>
     <div class="kt-aside-menu-wrapper kt-grid__item kt-grid__item--fluid" id="kt_aside_menu_wrapper">
         <div id="kt_aside_menu" class="kt-aside-menu " data-ktmenu-vertical="1" data-ktmenu-scroll="1" data-ktmenu-dropdown-timeout="500">
-            <ul class="kt-menu__nav ">
+            <ul class="kt-menu__nav "style="">
 
                 <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
 												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -63,7 +63,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.logo')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.logo')</span>
                     </a>
                 </li>
 
@@ -78,7 +78,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.social_link')</span>
+                        <span class="kt-menu__link-text"style="color:#fff">@lang('admin.aside.social_link')</span>
                     </a>
                 </li>
 
@@ -93,7 +93,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.main')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.main')</span>
                     </a>
                 </li>
 
@@ -108,7 +108,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.introduction')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.introduction')</span>
                     </a>
                 </li>
 
@@ -123,7 +123,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.vision_and_mission')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.vision_and_mission')</span>
                     </a>
                 </li>
 
@@ -138,7 +138,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.program_goal')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.program_goal')</span>
                     </a>
                 </li>
 
@@ -153,7 +153,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.condition_subscription')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.condition_subscription')</span>
                     </a>
                 </li>
 
@@ -168,7 +168,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.media_center')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.media_center')</span>
                     </a>
                 </li>
 
@@ -183,7 +183,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.contact_us_page')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.contact_us_page')</span>
                     </a>
                 </li>
 
@@ -198,7 +198,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="kt-menu__link-text">@lang('admin.aside.contact_us')</span>
+                        <span class="kt-menu__link-text" style="color:#fff">@lang('admin.aside.contact_us')</span>
                     </a>
                 </li>
 
@@ -218,7 +218,7 @@
 {{--                                </g>--}}
 {{--                            </svg>--}}
 {{--                        </span>--}}
-{{--                        <span class="kt-menu__link-text">@lang('admin.aside.contact_messages')</span><span class="kt-menu__link-badge">{!! $new_contact_messages > 0 ? '<span class="kt-badge kt-badge--danger kt-badge--pill">'.$new_contact_messages.'</span>' : '' !!}</span>--}}
+{{--                        <span class="">@lang('admin.aside.contact_messages')</span><span class="kt-menu__link-badge">{!! $new_contact_messages > 0 ? '<span class="kt-badge kt-badge--danger kt-badge--pill">'.$new_contact_messages.'</span>' : '' !!}</span>--}}
 {{--                    </a>--}}
 {{--                </li>--}}
 

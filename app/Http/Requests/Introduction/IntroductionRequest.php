@@ -26,8 +26,8 @@ class IntroductionRequest extends FormRequest
         return [
             'title_ar' => 'required|max:100',
             'title_en' => 'required|max:150',
-            'description_ar' => 'required|max:1000',
-            'description_en' => 'required|max:1000',
+            'description_ar' => 'required|max:10000',
+            'description_en' => 'required|max:10000',
             'image' => 'nullable|image|mimes:png,jpg,jpeg,PNG,JPG,JPEG|max:8140',
             //'video' => 'nullable|mimes:mp4,ogx,oga,ogv,ogg,webm',
         ];

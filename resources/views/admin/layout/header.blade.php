@@ -108,7 +108,7 @@
 
 
                     <div class="kt-notification__custom kt-space-between">
-                        <a href="{{route('admin.logout')}}" target="_blank" class="btn btn-label btn-label-brand btn-sm btn-bold">تسجيل الخروج</a>
+                        <a href="{{route('admin.logout')}}" target="" class="btn btn-label btn-label-brand btn-sm btn-bold">تسجيل الخروج</a>
                     </div>
                 </div>
 

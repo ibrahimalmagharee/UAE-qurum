@@ -26,16 +26,16 @@ class ProgramGoalRequest extends FormRequest
         return [
             'title_ar' => 'required|max:100',
             'title_en' => 'required|max:150',
-            'description1_ar' => 'required|max:1000',
-            'description1_en' => 'required|max:1000',
-            'description2_ar' => 'required|max:1000',
-            'description2_en' => 'required|max:1000',
-            'description3_ar' => 'required|max:1000',
-            'description3_en' => 'required|max:1000',
-            'description4_ar' => 'required|max:1000',
-            'description4_en' => 'required|max:1000',
-            'description5_ar' => 'required|max:1000',
-            'description5_en' => 'required|max:1000',
+            'description1_ar' => 'required|max:10000',
+            'description1_en' => 'required|max:10000',
+            'description2_ar' => 'required|max:10000',
+            'description2_en' => 'required|max:10000',
+            'description3_ar' => 'required|max:10000',
+            'description3_en' => 'required|max:10000',
+            'description4_ar' => 'required|max:10000',
+            'description4_en' => 'required|max:10000',
+            'description5_ar' => 'required|max:10000',
+            'description5_en' => 'required|max:10000',
         ];
     }
 
